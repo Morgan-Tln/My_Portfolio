@@ -1,0 +1,70 @@
+body {
+  background: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Block1 {
+  margin-left: 30px;
+  margin-top: 80px;
+}
+
+.Block1 img {
+float: left;
+padding: 20px;
+}
+
+.Block1 h1{
+  color: orange;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.Block1 p{
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+font-size: 14pt;
+text-align: center;
+}
+
+#button a:hover{
+  padding-top: 5px;
+	font-size:17pt;
+	border:2px solid black;
+	background:#FF8B38;
+  color: white;
+	font-family: 'Fredoka One', cursive;
+
+}
+#button a{
+	width:200px;
+	height:38px;
+	background:white;
+	color:#FF8B38;
+	display:block;
+	margin:auto;
+	border-radius:20px;
+	border:0px;
+	margin-top:50px;
+	font-family: 'Righteous', cursive;
+	text-align:center;
+	padding-top:12px;
+text-decoration: none;
+transition: 0.5s linear 0s;
+}
+
+.box {
+  width: 80px;
+  height: 30px;
+  background-color:white;
+  margin-bottom: 100px;
+  margin-left: 800px;
+}
+
+.box p {
+  color: black;
+  text-align: center;
+  padding: 7px;
+}

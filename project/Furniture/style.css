@@ -1,0 +1,357 @@
+
+/* hauteur de chaque parallax */
+.parallax-container {
+      height: 800px;
+    }
+
+    #background2 {
+    width: 100%;
+    height: 1200px;
+    }
+
+/* petite icone centré */
+.icon1 {
+  margin-left: 600px;
+}
+
+/* texte sous la petite icon */
+.para1 {
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-style: Tahoma;
+  font-size: 14pt;
+}
+
+.picback  {
+  width: 1000px;
+  height: 600px;
+  margin-left: 210px;
+}
+
+.nav-wrapper a {
+  color: black;
+}
+
+.moveLogo {
+  margin-left: 660px;
+}
+
+.moveIcon {
+  margin-left: 30px;
+}
+
+/* modal  1*/
+
+      .modal-item-1 {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(255,255,255,0.8);
+        z-index: 99999;
+        opacity:0;
+        -webkit-transition: opacity 400ms ease-in;
+        -moz-transition: opacity 400ms ease-in;
+        transition: opacity 400ms ease-in;
+        pointer-events: none;
+      }
+      .modal-item-1:target {
+        opacity:1;
+        pointer-events: auto;}
+
+      .modal-item-1 > div {
+        width: 100%;
+        height:100%;
+        position: absolute;
+        top:0px;
+        left:0px;
+        overflow-y: scroll;
+      }
+
+      .fermer-item1{
+        position:absolute;
+        top:10px;
+        right:10px;
+      }
+
+      .fermer-item1 i{
+        color:black;
+        font-size: 35pt;
+      }
+
+      header {
+        margin-top: 100px;
+        margin-left: 630px;
+        padding-bottom: 10px;
+      }
+
+/* La deuxième modal avec formulaire de contact */
+      .modal-item-2 {
+        position: fixed;
+        top: 30%;
+        right: 0;
+        bottom: 0;
+        left: 60%;
+        background: #F2CA99;
+        z-index: 99999;
+        opacity:0;
+        -webkit-transition: opacity 400ms ease-in;
+        -moz-transition: opacity 400ms ease-in;
+        transition: opacity 400ms ease-in;
+        pointer-events: none;
+      }
+
+      .modal-item-2:target {
+        opacity:1;
+        pointer-events: auto;}
+
+      .modal-item-2 > div {
+        width: 100%;
+        height:100%;
+        position: absolute;
+        top:0px;
+        left:0px;
+        }
+
+      .fermer-item2{
+        position:absolute;
+        top:10px;
+        right:10px;
+      }
+
+      .fermer-item2 i{
+        color:black;
+        font-size: 25pt;
+      }
+
+      .modal-item2 h6{
+        margin-top:20px;
+        margin-left: 20px;
+      }
+
+.button {
+  position: fixed;
+  top: 90%;
+  left: 94%;
+}
+/* couleur du formulaire de contact de la modal */
+      #section4 {
+      font-family: Roboto, sans-serif;
+      font-weight: 100;
+      font-size: 18px;
+      }
+
+      .wrapper {
+        margin: 47px auto;
+        max-width:500px;
+      }
+
+      #contact_form {
+        /* text-shadow:0 0 0 #FFF; */
+        border-radius:4px;
+        -webkit-border-radius:4px;
+        -moz-border-radius:4px;
+        background:white;
+        padding:25px;
+      }
+
+      #ff label {
+        margin:3px 0;
+        color:black;
+        display:block;
+      }
+
+      input {
+        display:block;
+        width:90%;
+        border-radius:4px;
+        -webkit-border-radius:4px;
+        -moz-border-radius:4px;
+        background-color:black;
+        color:black;
+        border:0px;
+        padding:10px;
+        margin-bottom:25px;
+      }
+
+      #section4 #contact_form input[type=submit] {
+        background-color: black;
+        color: #F2CA99;
+        margin-top: 20px;
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+
+      #background3 {
+      width: 100%;
+      height: 800px;
+      background-color: #F2CA99;
+      }
+
+      .title1 {
+        font-family: Tahoma;
+        text-align:center;
+        padding-top: 30px;
+      }
+
+      .listec {
+        text-align: center;
+      }
+
+      .listec ul li{
+        display: inline-block;
+      }
+
+      .listec li a {
+        color: black;
+      }
+
+      .listec li a:hover {
+        color: white;
+      }
+
+      .colone {
+        width: 330px;
+        height: 530px;
+        background:silver ;
+        display: inline-block;
+        margin-right: 12px;
+        margin-top: 70px;
+        margin-left: 15px;
+        overflow:hidden;
+      }
+
+      .colone img {
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: 400px;
+      }
+
+      .colone img:hover {
+        transform:scale(1.05);
+        transition:all 0.5s linear 0s;
+      }
+
+      .colone p {
+        font-size: 10pt;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+
+      .prix p {
+        font-size: 12pt;
+        margin-left:250px;
+      }
+
+      .colone a {
+        color: black;
+      }
+
+      .background4 {
+      width: 100%;
+      height: 1000px;
+      background-color: white;
+      }
+
+      .icon2 {
+      margin-top: 30px;
+      margin-left:670px;
+      }
+
+      .picback2  {
+        margin-top: 40px;
+        width: 1000px;
+        height: 600px;
+        margin-left: 210px;
+      }
+
+      .background5 {
+      width: 100%;
+      height: 1500px;
+      background-color: #F2CA99;
+      }
+
+
+      .Allcol {
+      margin-left: 170px;
+      }
+
+      .colone2 {
+        width: 500px;
+        height: 540px;
+        background:silver ;
+        display: inline-block;
+        margin-top: 70px;
+        margin-left: 30px;
+        overflow: hidden;
+      }
+
+      .colone2 img {
+        width: 100%;
+        height: 400px;
+      }
+
+      .colone2 p {
+        font-size: 10pt;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+
+      .prix2 p {
+        font-size: 12pt;
+        margin-left:400px;
+      }
+
+      .colone2 a {
+        color: black;
+      }
+
+      .colone2 img:hover {
+        transform:scale(1.05);
+        transition:all 0.5s linear 0s;
+      }
+
+      .Allcol2 {
+      margin-left: 100px;
+      }
+
+      .colone3 {
+        width: 400px;
+        height: 540px;
+        background:silver ;
+        display: inline-block;
+        margin-right: 12px;
+        margin-top: 70px;
+        overflow: hidden;
+      }
+
+      .colone3 img {
+        width: 100%;
+        height: 400px;
+      }
+
+      .colone3 p {
+        font-size: 10pt;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+
+      .prix3 p {
+        font-size: 12pt;
+        margin-left:300px;
+      }
+
+      .colone3 a {
+        color: black;
+      }
+
+      .colone3 img:hover {
+        transform:scale(1.05);
+        transition:all 0.5s linear 0s;
+      }
