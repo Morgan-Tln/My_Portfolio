@@ -317,6 +317,7 @@ background-color: #404040;
     width: 100%;
     height: 300px;
     position: absolute;
+    border: 1px solid black;
   }
 
   .box1:hover img {
@@ -354,6 +355,7 @@ background-color: #404040;
     width: 100%;
     height: 300px;
     position: absolute;
+    border: 1px solid black;
   }
 
   .box2:hover img {
@@ -390,6 +392,7 @@ background-color: #404040;
     width: 100%;
     height: 300px;
     position: absolute;
+    border: 1px solid white;
   }
 
   .box3:hover img {
@@ -428,6 +431,7 @@ background-color: #404040;
     width: 100%;
     height: 300px;
     position: absolute;
+    border: 1px solid white;
   }
 
   .box4:hover img {
@@ -832,6 +836,7 @@ background-color: #404040;
       width: 100%;
       height: 300px;
       position: absolute;
+      border: 1px solid black;
     }
 
     .box1:hover img {
@@ -869,6 +874,7 @@ background-color: #404040;
       width: 100%;
       height: 300px;
       position: absolute;
+      border: 1px solid black;
     }
 
     .box2:hover img {
@@ -905,6 +911,7 @@ background-color: #404040;
       width: 100%;
       height: 300px;
       position: absolute;
+      border: 1px solid white;
     }
 
     .box3:hover img {
@@ -943,6 +950,7 @@ background-color: #404040;
       width: 100%;
       height: 300px;
       position: absolute;
+      border: 1px solid white;
     }
 
     .box4:hover img {
@@ -1344,6 +1352,7 @@ background-color: #404040;
       width: 650px;
       height: 300px;
       position: absolute;
+      border: 1px solid black;
     }
 
     .box1:hover img {
@@ -1381,6 +1390,7 @@ background-color: #404040;
       width: 650px;
       height: 300px;
       position: absolute;
+      border: 1px solid black;
     }
 
     .box2:hover img {
@@ -1417,6 +1427,7 @@ background-color: #404040;
       width: 650px;
       height: 300px;
       position: absolute;
+      border: 1px solid white;
     }
 
     .box3:hover img {
@@ -1455,6 +1466,7 @@ background-color: #404040;
       width: 650px;
       height: 300px;
       position: absolute;
+      border: 1px solid white;
     }
 
     .box4:hover img {
@@ -1861,6 +1873,7 @@ background-color: #404040;
       width: 100%;
       height: 300px;
       position: absolute;
+      border: 1px solid black;
     }
 
     .box1:hover img {
@@ -1898,6 +1911,7 @@ background-color: #404040;
       width: 100%;
       height: 300px;
       position: absolute;
+      border: 1px solid black;
     }
 
     .box2:hover img {
@@ -1934,6 +1948,7 @@ background-color: #404040;
       width: 100%;
       height: 300px;
       position: absolute;
+      border: 1px solid white;
     }
 
     .box3:hover img {
@@ -1972,6 +1987,7 @@ background-color: #404040;
       width: 100%;
       height: 300px;
       position: absolute;
+      border: 1px solid white;
     }
 
     .box4:hover img {
@@ -2373,6 +2389,7 @@ background-color: #404040;
       width: 450px;
       height: 300px;
       position: absolute;
+      border: 1px solid black;
     }
 
     .box1:hover img {
@@ -2410,6 +2427,7 @@ background-color: #404040;
       width: 430px;
       height: 300px;
       position: absolute;
+      border: 1px solid black;
     }
 
     .box2:hover img {
@@ -2446,6 +2464,7 @@ background-color: #404040;
       width: 450px;
       height: 300px;
       position: absolute;
+      border: 1px solid white;
     }
 
     .box3:hover img {
@@ -2484,6 +2503,7 @@ background-color: #404040;
       width: 430px;
       height: 300px;
       position: absolute;
+      border: 1px solid white;
     }
 
     .box4:hover img {
