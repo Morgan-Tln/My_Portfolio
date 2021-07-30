@@ -200,14 +200,24 @@ background-color: #404040;
     font-size: 2.2rem;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom:7%;
   }
 
-  .container-education, .title, .date{
+  .container-education{
+    margin-top: 10%;
+  }
+
+  .container-education, .title, .date,.date2, .date3, .date4{
     display: inline-block;
   }
 
-  .title, .ecole, .description{
+  .title{
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .ecole, .description{
     color: white;
     font-size: 0.9rem;
     font-family: 'Montserrat', sans-serif;
@@ -219,11 +229,222 @@ background-color: #404040;
       border-radius: 30px;
       width: 60px;
       height: 25px;
-      margin-left: 2%;
+      margin-left: 65%;
       padding-left: 1%;
       font-size: 9pt;
       position: absolute;
   }
+
+  .date2 {
+    color: #666;
+    border: 2px solid #04BF45;
+    border-radius: 30px;
+    width: 50px;
+    height: 25px;
+    margin-left: 60%;
+    padding-left: 1%;
+    font-size: 9pt;
+    position: absolute;
+  }
+
+  .date3 {
+    color: #666;
+    border: 2px solid #04BF45;
+    border-radius: 30px;
+    width: 50px;
+    height: 25px;
+    margin-left: 56%;
+    padding-left: 1%;
+    font-size: 9pt;
+    position: absolute;
+  }
+
+  .date4 {
+    color: #666;
+    border: 2px solid #04BF45;
+    border-radius: 30px;
+    width: 50px;
+    height: 25px;
+    margin-left:62%;
+    padding-left: 1%;
+    font-size: 9pt;
+    position: absolute;
+  }
+
+  #background_3{
+    height: 500px;
+    background-color: white;
+  }
+
+  .project{
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .sentence-project{
+    color: black;
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom:7%;
+  }
+
+  #background_4{
+    height: 800px;
+    background-color: #0D0D0D;
+  }
+
+  .box1{
+    width: 500px;
+    height:300px;
+    overflow: hidden;
+    margin-top: -20%;
+    margin-right: 10%;
+  }
+
+  .box1 img {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+  }
+
+  .box1:hover img {
+    transform:scale(1.02);
+    transition:all 0.5s linear 0s;
+  }
+
+  .box1 p {
+    color: transparent;
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    margin-left: 7%;
+    margin-top: 45%;
+  }
+
+  .box1:hover p {
+    color: white;
+  }
+
+  .box1 a:hover{
+    text-decoration: none;
+  }
+
+  .box2{
+    width: 500px;
+    height:300px;
+    overflow: hidden;
+    margin-top: -20%;
+    padding-left: 5%;
+  }
+
+  .box2 img {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+  }
+
+  .box2:hover img {
+    transform:scale(1.02);
+    transition:all 0.5s linear 0s;
+  }
+
+  .box2 p {
+    color: transparent;
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    margin-left: 7%;
+    margin-top: 45%;
+  }
+
+  .box2:hover p {
+    color: gray;
+  }
+
+  .box2 a:hover{
+    text-decoration: none;
+  }
+
+  .box3{
+    width: 500px;
+    height:300px;
+    overflow: hidden;
+    margin-top: 5%;
+  }
+
+  .box3 img {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+  }
+
+  .box3:hover img {
+    transform:scale(1.02);
+    transition:all 0.5s linear 0s;
+  }
+
+  .box3 p {
+    color: transparent;
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    margin-left: 7%;
+    margin-top: 7%;
+  }
+
+  .box3:hover p {
+    color: gray;
+  }
+
+  .box3 a:hover{
+    text-decoration: none;
+  }
+
+
+  .box4{
+    width: 500px;
+    height:300px;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  .box4 img {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+  }
+
+  .box4:hover img {
+    transform:scale(1.02);
+    transition:all 0.5s linear 0s;
+  }
+
+  .box4 p {
+    color: transparent;
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    margin-left: 7%;
+    margin-top: 7%;
+  }
+
+  .box4:hover p {
+    color: white;
+  }
+
+  .box4 a:hover{
+    text-decoration: none;
+  }
+
 
 }
 
